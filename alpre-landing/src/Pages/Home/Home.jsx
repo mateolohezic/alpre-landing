@@ -5,16 +5,21 @@ import Navbar from '../../Components/Navbar/Navbar';
 import './home.css'
 import ServiciosObras from '../../Components/ServiciosObras/ServiciosObras';
 import LaEmpresa from '../../Components/LaEmpresa/LaEmpresa';
+import QuienesSomos from '../../Components/QuienesSomos/QuienesSomos';
+import Contacto from '../../Components/Contacto/Contacto';
+import Footer from '../../Components/Footer/Footer';
 
 function Home() {
   return (
     <>
-      {/* <div className="bg"></div> */}
       <Navbar/>
       <CarouselPortada/>
       <TextosInicio/>
       <ServiciosObras/>
       <LaEmpresa/>
+      <QuienesSomos/>
+      <Contacto/>
+      <Footer/>
     </>
   )
 }

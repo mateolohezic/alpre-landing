@@ -40,11 +40,11 @@ import iconoMetalurgica4 from '../../assets/Metalúrgica/tools.png'
 function ServiciosObras() {
   return (
     <>
-      <div className='tituloCategoria separacionTituloCategoria'>SERVICIOS &amp; OBRAS</div>
+      <div className='tituloCategoria separacionTituloCategoria' id="Servicios">SERVICIOS &amp; OBRAS</div>
       <div className='contenedorServicios'>
         <div className='row itemServicio'>
-          <div className='col-5'><CarouselServicio id="carruselArquitectura" imagen1={arquitectura1} imagen2={arquitectura2} imagen3={arquitectura3}/></div>
-          <div className='col-7 infoItemServicio'>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5'><CarouselServicio id="carruselArquitectura" imagen1={arquitectura1} imagen2={arquitectura2} imagen3={arquitectura3}/></div>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 infoItemServicio'>
             <h2>ARQUITECTURA</h2>
             <p><img src={iconoArquitectura1} alt="Icono Arquitectura" /> Construcción de barrios de viviendas.</p>
             <p><img src={iconoArquitectura2} alt="Icono Arquitectura" /> Escuelas y hospitales.</p>
@@ -54,8 +54,8 @@ function ServiciosObras() {
           </div>
         </div>
         <div className='row itemServicio'>
-          <div className='col-5'><CarouselServicio id="carruselCivil" imagen1={civil1} imagen2={civil2} imagen3={civil3}/></div>
-          <div className='col-7 infoItemServicio'>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5'><CarouselServicio id="carruselCivil" imagen1={civil1} imagen2={civil2} imagen3={civil3}/></div>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 infoItemServicio'>
             <h2>INGENIERÍA CIVIL</h2>
             <p><img src={iconoCivil1} alt="Icono Civil" /> Redes de agua potable y cloaca.</p>
             <p><img src={iconoCivil2} alt="Icono Civil" /> Infraestructura vial, pavimentos de hormigón rígidos y flexibles, y pisos industriales.</p>
@@ -65,8 +65,8 @@ function ServiciosObras() {
           </div>
         </div>
         <div className='row itemServicio'>
-          <div className='col-5'><CarouselServicio id="carruselElectromecanica" imagen1={electromecanica1} imagen2={electromecanica2} imagen3={electromecanica3}/></div>
-          <div className='col-7 infoItemServicio'>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5'><CarouselServicio id="carruselElectromecanica" imagen1={electromecanica1} imagen2={electromecanica2} imagen3={electromecanica3}/></div>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 infoItemServicio'>
             <h2>ELECTROMECÁNICA</h2>
             <p><img src={iconoElectromecanica1} alt="Icono Electromecanica" /> Alumbrado público.</p>
             <p><img src={iconoElectromecanica2} alt="Icono Electromecanica" /> Tendido de líneas aéreas y subterráneas de media y baja tensión.</p>
@@ -79,8 +79,8 @@ function ServiciosObras() {
           </div>
         </div>
         <div className='row itemServicio'>
-          <div className='col-5'><CarouselServicio id="carruselMetalurgica" imagen1={metalurgica1} imagen2={metalurgica2} imagen3={metalurgica3}/></div>
-          <div className='col-7 infoItemServicio'>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5'><CarouselServicio id="carruselMetalurgica" imagen1={metalurgica1} imagen2={metalurgica2} imagen3={metalurgica3}/></div>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 infoItemServicio'>
             <h2>METALÚRGICA</h2>
             <p><img src={iconoMetalurgica1} alt="Icono Metalúrgica" /> Naves industriales de distintos tipos y luces</p>
             <p><img src={iconoMetalurgica2} alt="Icono Metalúrgica" /> Estructuras metálicas de cubierta.</p>

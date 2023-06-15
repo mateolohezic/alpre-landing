@@ -5,7 +5,7 @@ function LaEmpresa() {
 
     return (
         <>
-            <div className='contenedorLaEmpresa'>
+            <div className='contenedorLaEmpresa' id="LaEmpresa">
                 <div className='tituloCategoria'>LA EMPRESA</div>
                 <div className='introduccionHistoria'>
                     <p>Constituida en el año 2000 por profesionales de vasta trayectoria en ingeniería electromecánica, ALPRE S.A. nace como una empresa dedicada al rubro construcción.</p>

@@ -5,6 +5,7 @@ import './navbar.css'
 function Navbar() {
 
     const [navbarClass, setNavbarClass] = useState('transparent-navbar');
+    const [navbarLinkClass, setNavbarLinkClass] = useState('shadow-navbar-link');
 
     useEffect(() => {
         const handleScroll = () => {
@@ -13,8 +14,10 @@ function Navbar() {
     
           if (scrollTop > scrollThreshold) {
             setNavbarClass('blue-navbar');
+            setNavbarLinkClass('');
           } else {
             setNavbarClass('transparent-navbar');
+            setNavbarLinkClass('shadow-navbar-link');
           }
         };
     
@@ -43,20 +46,20 @@ function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarPrincipal">
                         <ul className="navbar-nav ms-auto">
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">INICIO</a>
+                            <li className={`nav-item ${navbarLinkClass}`}>
+                                <a className="nav-link" aria-current="page" href="#Inicio">INICIO</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">SERVICIOS</a>
+                            <li className={`nav-item ${navbarLinkClass}`}>
+                                <a className="nav-link" aria-current="page" href="#Servicios">SERVICIOS</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">LA EMPRESA</a>
+                            <li className={`nav-item ${navbarLinkClass}`}>
+                                <a className="nav-link" aria-current="page" href="#LaEmpresa">LA EMPRESA</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">QUIENES SOMOS</a>
+                            <li className={`nav-item ${navbarLinkClass}`}>
+                                <a className="nav-link" aria-current="page" href="#QuienesSomos">QUIENES SOMOS</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">CONTACTO</a>
+                            <li className={`nav-item ${navbarLinkClass}`}>
+                                <a className="nav-link" aria-current="page" href="#Contacto">CONTACTO</a>
                             </li>
                         </ul>
                     </div>

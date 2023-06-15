@@ -6,34 +6,24 @@
 }
 
 .introduccionHistoria{
-    width: 80%;
     margin: auto;
 }
 
 .introduccionHistoria p{
-    margin-top: 2rem;
     text-align: center;
     color: rgb(0, 113, 188);
-    font-size: 1.6rem;
-    line-height: 1.8rem;
     font-weight: 500;
 }
 
 .filaMisionVision{
-    width: 80%;
     margin: auto;
-    margin-top: 4rem;
     display: flex;
-    gap: 6%;
+    flex-wrap: wrap;
 }
 
 .cardPropiedad{
-    margin-top: 1rem;
-    width: 47%;
     background-color: #FFFFFF;
     border-radius: 20px;
-    padding-block: 2rem;
-    padding-inline: 2rem;
     filter: drop-shadow(0px 0px 5px rgba(58, 58, 58, 0.1));
     transition: transform .3s ease;
 }
@@ -60,11 +50,8 @@
 }
 
 .tituloValores{
-    margin-top: 4rem;
     text-align: center;
     background-color: rgb(0, 113, 188, 1);
-    padding-block: 0.5rem;
-    border-radius: 10px;
     filter: drop-shadow(0px 0px 10px rgba(58, 58, 58, 0.2));
 }
 
@@ -79,13 +66,9 @@
 }
 
 .cardValores{
-    width: 70%;
     margin: auto;
-    margin-top: 2rem;
     background-color: #FFFFFF;
     border-radius: 20px;
-    padding-block: 1rem;
-    padding-inline: 2rem;
     filter: drop-shadow(0px 0px 5px rgba(58, 58, 58, 0.1));
     text-align: center;
     transition: transform .3s ease;
@@ -107,4 +90,185 @@
 .cardValores:hover p{
     color: #FFFFFF;
     font-size: 1rem;
+}
+
+@media (max-width: 576px){
+    
+    .contenedorLaEmpresa{
+        padding-block: 3.5rem;
+        padding-inline: 0rem;
+    }
+
+    .introduccionHistoria{
+        width: 100%;
+    }
+
+    .introduccionHistoria p{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+    .filaMisionVision{
+        width: 90%;
+        margin-top: 1rem;
+        gap: 6%;
+    }
+    
+    .cardPropiedad{
+        margin-top: 2rem;
+        width: 100%;
+        padding-block: 2rem;
+        padding-inline: 2rem;
+    }
+
+    .tituloValores{
+        margin-top: 2rem;
+        padding-block: 1rem;
+        border-radius: 0px;
+    }
+
+    .cardValores{
+        width: 90%;
+        margin-top: 2rem;
+        padding-block: 1rem;
+        padding-inline: 1rem;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+    
+    .contenedorLaEmpresa{
+        padding-block: 4rem;
+        padding-inline: 2rem;
+    }
+
+    .introduccionHistoria{
+        width: 100%;
+    }
+
+    .introduccionHistoria p{
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    .filaMisionVision{
+        width: 100%;
+        margin-top: 4rem;
+        gap: 6%;
+    }
+    
+    .cardPropiedad{
+        margin-top: 2rem;
+        width: 100%;
+        padding-block: 2rem;
+        padding-inline: 2rem;
+    }
+
+    .tituloValores{
+        margin-top: 2rem;
+        padding-block: 1rem;
+        border-radius: 10px;
+    }
+
+    .cardValores{
+        width: 90%;
+        margin-top: 2rem;
+        padding-block: 1rem;
+        padding-inline: 1rem;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    
+    .contenedorLaEmpresa{
+        padding-block: 5rem;
+        padding-inline: 3rem;
+    }
+
+    .introduccionHistoria{
+        width: 80%;
+    }
+
+    .introduccionHistoria p{
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    .filaMisionVision{
+        width: 80%;
+        margin-top: 4rem;
+        gap: 6%;
+    }
+    
+    .cardPropiedad{
+        margin-top: 1rem;
+        width: 47%;
+        padding-block: 2rem;
+        padding-inline: 2rem;
+    }
+
+    .tituloValores{
+        margin-top: 4rem;
+        padding-block: 0.5rem;
+        border-radius: 10px;
+    }
+
+    .cardValores{
+        width: 80%;
+        margin-top: 2rem;
+        padding-block: 1rem;
+        padding-inline: 2rem;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .contenedorLaEmpresa{
+        padding-block: 5rem;
+        padding-inline: 3rem;
+    }
+
+    .introduccionHistoria{
+        width: 80%;
+    }
+
+    .introduccionHistoria p{
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    .filaMisionVision{
+        width: 80%;
+        margin-top: 4rem;
+        gap: 6%;
+    }
+    
+    .cardPropiedad{
+        margin-top: 1rem;
+        width: 47%;
+        padding-block: 2rem;
+        padding-inline: 2rem;
+    }
+
+    .tituloValores{
+        margin-top: 4rem;
+        padding-block: 0.5rem;
+        border-radius: 10px;
+    }
+
+    .cardValores{
+        width: 70%;
+        margin-top: 2rem;
+        padding-block: 1rem;
+        padding-inline: 2rem;
+    }
 }

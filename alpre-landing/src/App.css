@@ -47,31 +47,6 @@ input:-webkit-autofill:active {
     -webkit-text-fill-color: black !important;
 }
 
-.form-control:focus {
-    box-shadow: none;
-    border-color: none;
-    border: 1px solid #CE1D1F;
-}
-
-.form-control.is-invalid:focus {
-    box-shadow: none;
-    border-color: none;
-}
-/* 
-.bg{
-    filter: blur(1px);
-    background-color: rgb(255,255,255,1);
-    background-image: url("./assets/ConcreteIntenso.png");
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    background-position: 0% 0%;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    z-index: -1;
-} */
-
 @media (max-width: 576px){
 
 }

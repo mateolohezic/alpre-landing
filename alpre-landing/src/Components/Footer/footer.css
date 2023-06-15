@@ -1,0 +1,158 @@
+.footer{
+    background-color: rgb(0, 113, 188, 1);
+    filter: drop-shadow(0px -5px 5px rgb(58,58,58, 0.4));
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactoFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactoFooter h4{
+    font-size: 1.3rem;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+.contactoFooter i{
+    margin-right: 0.7rem;
+    position: relative;
+    top: 1px;
+}
+
+.urlFooter{
+    text-align: center;
+    width: 33%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+}
+
+.logoFooter img{
+    margin: auto;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+}
+
+@media (max-width: 576px){
+    .footer{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .contactoFooter{
+        width: 100%;
+        padding-inline: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .urlFooter{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .logoFooter{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .logoFooter img{
+        width: 80%;
+        margin: auto;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+    .footer{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .contactoFooter{
+        width: 100%;
+        padding-inline: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .urlFooter{
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .logoFooter{
+        width: 100%;
+        padding-inline: 2rem;
+        text-align: center;
+    }
+
+    .logoFooter img{
+        width: 60%;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .footer{
+        height: 300px;
+    }
+
+    .contactoFooter{
+        width: 33%;
+        padding-left: 3rem;
+    }
+
+    .urlFooter{
+        width: 33%;
+        font-size: 1.6rem;
+    }
+
+    .logoFooter{
+        width: 33%;
+        padding-right: 3rem;
+        text-align: end;
+    }
+
+    .logoFooter img{
+        width: 60%;
+    }
+    
+}
+
+@media (min-width: 1200px){
+    .footer{
+        height: 300px;
+    }
+
+    .contactoFooter{
+        width: 33%;
+        padding-left: 3rem;
+    }
+
+    .urlFooter{
+        width: 33%;
+        font-size: 1.6rem;
+    }
+
+    .logoFooter{
+        width: 33%;
+        padding-right: 3rem;
+        text-align: end;
+    }
+
+    .logoFooter img{
+        width: 60%;
+    }
+    
+}
