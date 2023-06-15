@@ -40,9 +40,10 @@ import iconoMetalurgica4 from '../../assets/Metalúrgica/tools.png'
 function ServiciosObras() {
   return (
     <>
-      <div className='tituloCategoria separacionTituloCategoria' id="Servicios">SERVICIOS &amp; OBRAS</div>
+      <div className='separacionTituloCategoria'></div>
       <div className='contenedorServicios'>
         <div className='row itemServicio'>
+          <div className='tituloServiciosyObras' id="Servicios">SERVICIOS &amp; OBRAS</div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5'><CarouselServicio id="carruselArquitectura" imagen1={arquitectura1} imagen2={arquitectura2} imagen3={arquitectura3}/></div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 infoItemServicio'>
             <h2>ARQUITECTURA</h2>

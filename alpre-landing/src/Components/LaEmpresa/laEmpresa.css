@@ -1,7 +1,12 @@
+.tituloCategoriaEmpresa{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(0, 113, 188);
+}
+
 .contenedorLaEmpresa{
     margin-top: 5rem;
     background-color: #E3E3E3;
-    padding-block: 5rem;
     padding-inline: 3rem;
 }
 
@@ -50,6 +55,7 @@
 }
 
 .tituloValores{
+    margin: auto;
     text-align: center;
     background-color: rgb(0, 113, 188, 1);
     filter: drop-shadow(0px 0px 10px rgba(58, 58, 58, 0.2));
@@ -127,7 +133,8 @@
     .tituloValores{
         margin-top: 2rem;
         padding-block: 1rem;
-        border-radius: 0px;
+        border-radius: 10px;
+        width: 90%;
     }
 
     .cardValores{
@@ -135,6 +142,13 @@
         margin-top: 2rem;
         padding-block: 1rem;
         padding-inline: 1rem;
+    }
+
+    .tituloCategoriaEmpresa{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
     }
 
 }
@@ -176,10 +190,17 @@
     }
 
     .cardValores{
-        width: 90%;
+        width: 100%;
         margin-top: 2rem;
         padding-block: 1rem;
         padding-inline: 1rem;
+    }
+
+    .tituloCategoriaEmpresa{
+        width: 100%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 7rem;
     }
 
 }
@@ -218,6 +239,7 @@
         margin-top: 4rem;
         padding-block: 0.5rem;
         border-radius: 10px;
+        width: 80%;
     }
 
     .cardValores{
@@ -227,6 +249,12 @@
         padding-inline: 2rem;
     }
 
+    .tituloCategoriaEmpresa{
+        width: 80%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 7rem;
+    }
 }
 
 @media (min-width: 1200px){
@@ -263,12 +291,20 @@
         margin-top: 4rem;
         padding-block: 0.5rem;
         border-radius: 10px;
+        width: 80%;
     }
 
     .cardValores{
-        width: 70%;
+        width: 80%;
         margin-top: 2rem;
         padding-block: 1rem;
         padding-inline: 2rem;
+    }
+    
+    .tituloCategoriaEmpresa{
+        width: 80%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 7rem;
     }
 }

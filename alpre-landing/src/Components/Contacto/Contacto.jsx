@@ -40,9 +40,10 @@ function Contacto() {
     {
       !enviado ?
       <>
+        <div className='separacionTituloCategoria'></div>
         <div className='contenedorContacto' id="Contacto">
-          <div className='tituloCategoria separacionTituloCategoria'>CONTACTO</div>
-          <h2 className='tituloDirectorio'>COMUNÍCATE CON NOSOTROS</h2>
+          <div className='tituloCategoriaContacto'>CONTACTO</div>
+          <h2 className='tituloComunicate'>COMUNÍCATE CON NOSOTROS</h2>
           <form onSubmit={handleSubmit(onSubmit)} className='FormularioContactoForm'>
             <div className="row w-100">
               <div className="form-group col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">

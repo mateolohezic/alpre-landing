@@ -6,7 +6,7 @@ function QuienesSomos() {
   return (
     <>
         <div className='contenedorQuienesSomos' id="QuienesSomos">
-            <div className='tituloCategoria'>QUIENES SOMOS</div>
+            <div className='tituloCategoriaQuienesSomos'>QUIENES SOMOS</div>
             <h2 className='tituloDirectorio'>DIRECTORIO</h2>
             <div className='contenedorPresiVice'>
                 <div className='cardPresiVice'>

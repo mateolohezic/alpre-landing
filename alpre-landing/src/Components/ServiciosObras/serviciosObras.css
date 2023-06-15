@@ -1,7 +1,15 @@
+.tituloServiciosyObras{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(0, 113, 188);
+    margin-bottom: 1rem;
+}
+
 .contenedorServicios{
     margin: auto;
     display: flex;
     flex-direction: column;
+    padding-bottom: 10rem;
 }
 
 .itemServicio{

@@ -1,3 +1,9 @@
+.tituloCategoriaQuienesSomos{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(0, 113, 188);
+}
+
 .contenedorQuienesSomos{
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -100,7 +106,9 @@
 
     .tituloDirectorio{
         font-size: 2.3rem;
-        padding-inline: 2rem;        
+        width: 90%;
+        margin: auto;
+        margin-bottom: 3rem;
     }
 
     .contenedorPresiVice{
@@ -154,14 +162,21 @@
         font-size: 0.9rem;
     }
     
-
+    .tituloCategoriaQuienesSomos{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px){
 
     .tituloDirectorio{
         font-size: 3rem;
-        padding-inline: 2rem;
+        width: 92%;
+        margin: auto;
+        margin-bottom: 3rem;
     }
 
     .contenedorPresiVice{
@@ -209,14 +224,21 @@
         font-size: 1rem;
     }
     
-
+    .tituloCategoriaQuienesSomos{
+        width: 92%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
 
     .tituloDirectorio{
         font-size: 3rem;
-        padding-inline: 2rem;
+        width: 73%;
+        margin: auto;
+        margin-bottom: 3rem;
     }
 
     .contenedorPresiVice{
@@ -260,14 +282,21 @@
         font-size: 1rem;
     }
     
-
+    .tituloCategoriaQuienesSomos{
+        width: 73%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }  
 }
 
 @media (min-width: 1200px){
 
     .tituloDirectorio{
         font-size: 3rem;
-        padding-inline: 2rem;
+        width: 67%;
+        margin: auto;
+        margin-bottom: 3rem;
     }
 
     .contenedorPresiVice{
@@ -311,4 +340,10 @@
         font-size: 1rem;
     }
     
+    .tituloCategoriaQuienesSomos{
+        width: 67%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
 }
