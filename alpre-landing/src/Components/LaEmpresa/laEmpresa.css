@@ -1,0 +1,110 @@
+.contenedorLaEmpresa{
+    margin-top: 5rem;
+    background-color: #E3E3E3;
+    padding-block: 5rem;
+    padding-inline: 3rem;
+}
+
+.introduccionHistoria{
+    width: 80%;
+    margin: auto;
+}
+
+.introduccionHistoria p{
+    margin-top: 2rem;
+    text-align: center;
+    color: rgb(0, 113, 188);
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+.filaMisionVision{
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    gap: 6%;
+}
+
+.cardPropiedad{
+    margin-top: 1rem;
+    width: 47%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    filter: drop-shadow(0px 0px 5px rgba(58, 58, 58, 0.1));
+    transition: transform .3s ease;
+}
+
+.cardPropiedad h3{
+    color: rgb(0, 113, 188);
+}
+
+.cardPropiedad p{
+    color: rgb(58, 58, 58, 0.9);
+}
+
+.cardPropiedad:hover{
+    transform: scale(1.04);
+    background-color: rgb(0, 113, 188);
+}
+
+.cardPropiedad:hover h3{
+    color: #FFFFFF;
+}
+
+.cardPropiedad:hover p{
+    color: #FFFFFF;
+}
+
+.tituloValores{
+    margin-top: 4rem;
+    text-align: center;
+    background-color: rgb(0, 113, 188, 1);
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px rgba(58, 58, 58, 0.2));
+}
+
+.tituloValores h2{
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.contenedorValores{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardValores{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    filter: drop-shadow(0px 0px 5px rgba(58, 58, 58, 0.1));
+    text-align: center;
+    transition: transform .3s ease;
+}
+
+.cardValores h4{
+    color: rgb(0, 113, 188);
+}
+
+.cardValores:hover{
+    transform: scale(1.03);
+    background-color: rgb(0, 113, 188);
+}
+
+.cardValores:hover h4{
+    color: #FFFFFF;
+}
+
+.cardValores:hover p{
+    color: #FFFFFF;
+    font-size: 1rem;
+}

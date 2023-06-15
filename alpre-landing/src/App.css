@@ -1,0 +1,89 @@
+/*
+
+font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+button {
+    border: none;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: none;
+    border: 1px solid #CE1D1F;
+}
+
+.form-control.is-invalid:focus {
+    box-shadow: none;
+    border-color: none;
+}
+/* 
+.bg{
+    filter: blur(1px);
+    background-color: rgb(255,255,255,1);
+    background-image: url("./assets/ConcreteIntenso.png");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: 0% 0%;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+} */
+
+@media (max-width: 576px){
+
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+
+@media (min-width: 1200px){
+
+}

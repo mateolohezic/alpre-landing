@@ -1,0 +1,32 @@
+.textoInicio1{
+    margin-block: 5rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding-inline: 2rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(0, 113, 188);
+    filter: drop-shadow(2px 2px 2px rgb(58, 58, 58, 0.2));
+}
+
+.textoInicio2{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding-block: 1.2rem;
+    padding-inline: 2rem;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(0, 113, 188);
+    color: #FFFFFF;
+}
+
+.textoInicio3{
+    margin-block: 5rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding-inline: 2rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(0, 113, 188);
+    filter: drop-shadow(2px 2px 2px rgb(58, 58, 58, 0.2));
+}

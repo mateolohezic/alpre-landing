@@ -1,0 +1,59 @@
+.tituloCategoria{
+    font-size: 1rem;
+    padding-inline: 2rem;
+    font-weight: 700;
+    text-align: start;
+    color: rgb(0, 113, 188);
+}
+
+.separacionTituloCategoria{
+    border-top: 1px solid rgb(58,58,58, 0.2);
+    padding-top: 3rem;
+}
+
+.contenedorServicios{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemServicio{
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.itemServicio img{
+    width: 100%;
+}
+
+.infoItemServicio{
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding-bottom: 2rem;
+}
+
+.infoItemServicio h2{
+    color: rgb(174, 204, 84,0.9);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.infoItemServicio p{
+    color: rgb(58,58,58, 0.9);
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+}
+
+.infoItemServicio img{
+    position: relative;
+    top: -3px;
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
