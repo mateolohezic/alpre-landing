@@ -38,6 +38,7 @@
 }
     
 .textoCarouselPortada{
+    padding-inline: 1.5rem;
     position: absolute;
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
