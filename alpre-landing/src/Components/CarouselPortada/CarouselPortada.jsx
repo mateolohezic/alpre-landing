@@ -4,6 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import './carouselPortada.css'
 import imagen1 from '../../assets/CarrouselPortada/carousel1.jpg'
 import imagen2 from '../../assets/CarrouselPortada/carousel2.jpg'
+import imagen3 from '../../assets/CarrouselPortada/carousel3.jpg'
 
 function CarouselPortada() {
 
@@ -16,6 +17,9 @@ function CarouselPortada() {
                     </div>
                     <div className='itemCarouselPortada itemCarouselPortada2'>
                         <img src={imagen2} />
+                    </div>
+                    <div className='itemCarouselPortada itemCarouselPortada3'>
+                        <img src={imagen3} />
                     </div>
                 </Carousel>
                 <div className='textoCarouselPortada'>OBRAS DE ARQUITECTURA E INGENIERÍA</div>

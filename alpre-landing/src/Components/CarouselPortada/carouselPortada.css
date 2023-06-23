@@ -14,7 +14,6 @@
 .itemCarouselPortada img{
     height: 100vh;
     opacity: 0;
-    filter:brightness(70%)
 }
 
 .itemCarouselPortada1{
@@ -24,12 +23,22 @@
     background-position: center;
     background-blend-mode: multiply;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: fixed;   
 }
 
 .itemCarouselPortada2{
     background-color: rgb(58,58,58,0);
     background-image: url("../../assets/CarrouselPortada/carousel2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.itemCarouselPortada3{
+    background-color: rgb(58,58,58,0);
+    background-image: url("../../assets/CarrouselPortada/carousel3.jpg");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
