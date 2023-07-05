@@ -120,18 +120,6 @@
     .itemServicioReverse{
         flex-direction: row-reverse;
     }
-    
-    .itemServicioReverse h2{
-        width: 100%;
-        text-align: end;
-    }
-    
-    .itemServicioReverse p{
-        width: 100%;
-        text-align: end;
-        display: flex;
-        flex-direction: row-reverse;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
@@ -172,18 +160,6 @@
     .itemServicioReverse{
         flex-direction: row-reverse;
     }
-    
-    .itemServicioReverse h2{
-        width: 100%;
-        text-align: end;
-    }
-    
-    .itemServicioReverse p{
-        width: 100%;
-        text-align: end;
-        display: flex;
-        flex-direction: row-reverse;
-    }
 }
 
 @media (min-width: 1200px){
@@ -222,18 +198,6 @@
     }
 
     .itemServicioReverse{
-        flex-direction: row-reverse;
-    }
-    
-    .itemServicioReverse h2{
-        width: 100%;
-        text-align: end;
-    }
-    
-    .itemServicioReverse p{
-        width: 100%;
-        text-align: end;
-        display: flex;
         flex-direction: row-reverse;
     }
 }
