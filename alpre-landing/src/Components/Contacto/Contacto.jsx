@@ -40,7 +40,6 @@ function Contacto() {
     {
       !enviado ?
       <>
-        <div className='separacionTituloCategoria'></div>
         <div className='contenedorContacto' id="Contacto">
           <div className='tituloCategoriaContacto'>CONTACTO</div>
           <h2 className='tituloComunicate'>COMUNÍCATE CON NOSOTROS</h2>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './quienesSomos.css'
-import foto from '../../assets/FotoPrueba.png'
+import foto from '../../assets/contact.png'
 
 function QuienesSomos() {
   return (

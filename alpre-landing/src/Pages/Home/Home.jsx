@@ -17,7 +17,6 @@ function Home() {
       <TextosInicio/>
       <ServiciosObras/>
       <LaEmpresa/>
-      <QuienesSomos/>
       <Contacto/>
       <Footer/>
     </>

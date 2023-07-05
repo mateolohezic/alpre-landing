@@ -56,9 +56,6 @@ function Navbar() {
                                 <a className="nav-link" aria-current="page" href="#LaEmpresa">LA EMPRESA</a>
                             </li>
                             <li className={`nav-item ${navbarLinkClass}`}>
-                                <a className="nav-link" aria-current="page" href="#QuienesSomos">QUIENES SOMOS</a>
-                            </li>
-                            <li className={`nav-item ${navbarLinkClass}`}>
                                 <a className="nav-link" aria-current="page" href="#Contacto">CONTACTO</a>
                             </li>
                         </ul>
