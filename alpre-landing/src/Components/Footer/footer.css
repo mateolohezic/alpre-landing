@@ -14,7 +14,6 @@
 }
 
 .contactoFooter h4{
-    font-size: 1.3rem;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
 }
 
@@ -51,6 +50,10 @@
         justify-content: center;
         align-items: center;
     }
+    
+    .contactoFooter h4{
+        font-size: 1rem;
+    }
 
     .urlFooter{
         width: 100%;
@@ -85,10 +88,14 @@
         justify-content: center;
         align-items: center;
     }
+    
+    .contactoFooter h4{
+        font-size: 1rem;
+    }
 
     .urlFooter{
         width: 100%;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .logoFooter{
@@ -98,24 +105,33 @@
     }
 
     .logoFooter img{
-        width: 40%;
+        width: 25%;
     }
     
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
     .footer{
-        height: 300px;
+        height: 200px;
     }
 
     .contactoFooter{
         width: 33%;
         padding-left: 3rem;
     }
+    
+    .contactoFooter h4{
+        font-size: 1.1rem;
+    }
+    
+    .contactoFooter h4:last-child{
+        margin-bottom: 0;
+    }
+
 
     .urlFooter{
         width: 33%;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     .logoFooter{
@@ -132,17 +148,25 @@
 
 @media (min-width: 1200px){
     .footer{
-        height: 300px;
+        height: 200px;
     }
 
     .contactoFooter{
         width: 33%;
         padding-left: 3rem;
     }
+    
+    .contactoFooter h4{
+        font-size: 1.1rem;
+    }
+    
+    .contactoFooter h4:last-child{
+        margin-bottom: 0;
+    }
 
     .urlFooter{
         width: 33%;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     .logoFooter{
@@ -152,7 +176,6 @@
     }
 
     .logoFooter img{
-        width: 40%;
+        width: 30%;
     }
-    
 }

@@ -45,7 +45,7 @@ function ServiciosObras() {
       <div className='contenedorServicios'>
         <div className='row itemServicio'>
           <div className='tituloServiciosyObras' id="Servicios">SERVICIOS &amp; OBRAS</div>
-          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5'><CarouselServicio id="carruselArquitectura" imagen1={arquitectura1} imagen2={arquitectura2} imagen3={arquitectura3}/></div>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 d-flex align-items-end'><CarouselServicio id="carruselArquitectura" imagen1={arquitectura1} imagen2={arquitectura2} imagen3={arquitectura3}/></div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 infoItemServicio'>
             <h2>ARQUITECTURA</h2>
             <p><img src={iconoAlpre} alt="Icono Arquitectura" /> Construcción de barrios de viviendas.</p>
@@ -56,7 +56,7 @@ function ServiciosObras() {
           </div>
         </div>
         <div className='row itemServicio itemServicioReverse'>
-          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5'><CarouselServicio id="carruselCivil" imagen1={civil1} imagen2={civil2} imagen3={civil3}/></div>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 d-flex align-items-end'><CarouselServicio id="carruselCivil" imagen1={civil1} imagen2={civil2} imagen3={civil3}/></div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 infoItemServicio'>
             <h2>INGENIERÍA CIVIL</h2>
             <p><img src={iconoAlpre} alt="Icono Civil" /> Redes de agua potable y cloaca.</p>
@@ -67,7 +67,7 @@ function ServiciosObras() {
           </div>
         </div>
         <div className='row itemServicio'>
-          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5'><CarouselServicio id="carruselElectromecanica" imagen1={electromecanica1} imagen2={electromecanica2} imagen3={electromecanica3}/></div>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 d-flex align-items-end'><CarouselServicio id="carruselElectromecanica" imagen1={electromecanica1} imagen2={electromecanica2} imagen3={electromecanica3}/></div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 infoItemServicio'>
             <h2>ELECTROMECÁNICA</h2>
             <p><img src={iconoAlpre} alt="Icono Electromecanica" /> Alumbrado público.</p>
@@ -81,7 +81,7 @@ function ServiciosObras() {
           </div>
         </div>
         <div className='row itemServicio itemServicioReverse'>
-          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5'><CarouselServicio id="carruselMetalurgica" imagen1={metalurgica1} imagen2={metalurgica2} imagen3={metalurgica3}/></div>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 d-flex align-items-end'><CarouselServicio id="carruselMetalurgica" imagen1={metalurgica1} imagen2={metalurgica2} imagen3={metalurgica3}/></div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 infoItemServicio'>
             <h2>METALÚRGICA</h2>
             <p><img src={iconoAlpre} alt="Icono Metalúrgica" /> Naves industriales de distintos tipos y luces</p>
