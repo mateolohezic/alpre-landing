@@ -1,0 +1,126 @@
+.contenedorTextos{
+    position: relative;
+    margin-top: 8rem;
+}
+
+.textoInicio1{
+    position: relative;
+    z-index: 1;
+    width: min(1200px, calc(100% - 4rem));
+    margin: auto;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--azul);
+}
+
+.textoInicio2{
+    position: relative;
+    z-index: 1;
+    width: min(1200px, calc(100% - 4rem));
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--azul);
+}
+    
+.imagenTextos{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+}    
+    
+.imagenTextos img{
+    filter: grayscale(100%);
+    opacity: 0.5;
+}  
+
+.imagenInicio2{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    width: min(1200px, calc(100% - 4rem));
+} 
+
+.imagenInicio2 img{
+    z-index: 1;
+    width: 100%;
+}
+
+.contenedorLogosTextos{
+    width: min(1200px, calc(100% - 4rem));
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.contenedorLogosTextos img{
+    width: 300px;
+}
+
+@media (max-width: 576px){
+
+    .imagenTextos{
+        top: -350px;
+        left: 0;
+        right: 0;
+    }
+
+    .imagenTextos img{
+        width: 250px;
+    }
+
+    .contenedorLogosTextos{
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+
+    .imagenTextos{
+        right: 5%;
+    }
+
+    .imagenTextos img{
+        width: 450px;
+    }
+
+    .contenedorLogosTextos{
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+    .imagenTextos{
+        right: 5%;
+    }
+
+    .imagenTextos img{
+        width: 450px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .imagenTextos{
+        right: 5%;
+    }
+
+    .imagenTextos img{
+        width: 450px;
+    }
+    
+}
