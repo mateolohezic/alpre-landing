@@ -88,7 +88,7 @@ function ServiciosObras() {
           <CarouselServicio imagenes={imgElectromecanica} id='carouselElectromecanica'/>
           <div className={`portadaServiciosObras portadaElectromecanica ${ !isIphone && 'bgfixed'}`}></div>
         </div>
-        <div className='row itemServicio itemServicioReverse'>
+        <div className='itemServicio itemServicioReverse'>
           <div className='infoItemServicio'>
             <h2>METALÚRGICA</h2>
             <p>Naves industriales de distintos tipos y luces</p>
