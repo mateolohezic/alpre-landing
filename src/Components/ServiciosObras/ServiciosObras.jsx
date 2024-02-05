@@ -52,11 +52,13 @@ function ServiciosObras() {
         <div className='itemServicio'>
           <div className='infoItemServicio'>
             <h2>ARQUITECTURA</h2>
-            <p>Construcción de barrios de viviendas.</p>
-            <p>Escuelas y hospitales.</p>
-            <p>Edificios de viviendas y comerciales de distintos niveles.</p>
-            <p>Complejos turísticos residenciales.</p>
-            <p>Estructuras de hormigón elaborado.</p>
+            <ul>
+              <li>Construcción de barrios de viviendas.</li>
+              <li>Escuelas y hospitales.</li>
+              <li>Edificios de viviendas y comerciales de distintos niveles.</li>
+              <li>Complejos turísticos residenciales.</li>
+              <li>Estructuras de hormigón elaborado.</li>
+            </ul>
           </div>
           <CarouselServicio imagenes={imgArquitectura} id='carouselArquitectura'/>
           <div className={`portadaServiciosObras portadaArquitectura ${ !isIphone && 'bgfixed'}`}></div>
@@ -64,11 +66,13 @@ function ServiciosObras() {
         <div className='itemServicio'>
           <div className='infoItemServicio'>
             <h2>INGENIERÍA CIVIL</h2>
-            <p>Redes de agua potable y cloaca.</p>
-            <p>Infraestructura vial, pavimentos de hormigón rígidos y flexibles, y pisos industriales.</p>
-            <p>Infraestructura de servicios, plazas, parques, equipamiento urbano, cordón cuneta, veredas y caminarías.</p>
-            <p>Construcción e instalación de plantas de tratamiento de efluentes cloacales.</p>
-            <p>Canalizaciones pluviales.</p>
+            <ul>
+              <li>Redes de agua potable y cloaca.</li>
+              <li>Infraestructura vial, pavimentos de hormigón rígidos y flexibles, y pisos industriales.</li>
+              <li>Infraestructura de servicios, plazas, parques, equipamiento urbano, cordón cuneta, veredas y caminarías.</li>
+              <li>Construcción e instalación de plantas de tratamiento de efluentes cloacales.</li>
+              <li>Canalizaciones pluviales.</li>
+            </ul>
           </div>
           <CarouselServicio imagenes={imgCivil} id='carouselCivil'/>
           <div className={`portadaServiciosObras portadaCivil ${ !isIphone && 'bgfixed'}`}></div>
@@ -76,14 +80,16 @@ function ServiciosObras() {
         <div className='itemServicio'>
           <div className='infoItemServicio'>
             <h2>ELECTROMECÁNICA</h2>
-            <p>Alumbrado público.</p>
-            <p>Tendido de líneas aéreas y subterráneas de media y baja tensión.</p>
-            <p>Estaciones transformadoras de hasta 132 KV.</p>
-            <p>Montaje de subestaciones transformadoras.</p>
-            <p>Centros de distribución de 13.2 y 33 KV.</p>
-            <p>Instalación eléctrica para luz y fuerza motriz de edificios.</p>
-            <p>Iluminación deportiva.</p>
-            <p>Electrificación rural.</p>
+            <ul>
+              <li>Alumbrado público.</li>
+              <li>Tendido de líneas aéreas y subterráneas de media y baja tensión.</li>
+              <li>Estaciones transformadoras de hasta 132 KV.</li>
+              <li>Montaje de subestaciones transformadoras.</li>
+              <li>Centros de distribución de 13.2 y 33 KV.</li>
+              <li>Instalación eléctrica para luz y fuerza motriz de edificios.</li>
+              <li>Iluminación deportiva.</li>
+              <li>Electrificación rural.</li>
+            </ul>
           </div>
           <CarouselServicio imagenes={imgElectromecanica} id='carouselElectromecanica'/>
           <div className={`portadaServiciosObras portadaElectromecanica ${ !isIphone && 'bgfixed'}`}></div>
@@ -91,10 +97,12 @@ function ServiciosObras() {
         <div className='itemServicio itemServicioReverse'>
           <div className='infoItemServicio'>
             <h2>METALÚRGICA</h2>
-            <p>Naves industriales de distintos tipos y luces</p>
-            <p>Estructuras metálicas de cubierta.</p>
-            <p>Talleres de carpintería de chapa y aluminio. Especiales y estándar.</p>
-            <p>Accesorios para obras: andamios, moldes, rejas, escaleras, metálicas, barandas, tapas de cámara, etc.</p>
+            <ul>
+              <li>Naves industriales de distintos tipos y luces</li>
+              <li>Estructuras metálicas de cubierta.</li>
+              <li>Talleres de carpintería de chapa y aluminio. Especiales y estándar.</li>
+              <li>Accesorios para obras: andamios, moldes, rejas, escaleras, metálicas, barandas, tapas de cámara, etc.</li>
+            </ul>
           </div>
           <CarouselServicio imagenes={imgMetalurgica} id='carouselMetalurgica'/>
           <div className={`portadaServiciosObras portadaMetalurgica ${ !isIphone && 'bgfixed'}`}></div>

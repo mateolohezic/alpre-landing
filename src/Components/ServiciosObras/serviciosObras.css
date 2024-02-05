@@ -37,10 +37,20 @@
     margin-bottom: 1rem;
 }
 
-.infoItemServicio p{
+.infoItemServicio ul{
+    padding: 0;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.infoItemServicio li{
     color: rgb(58,58,58, 0.9);
     margin-top: 0.3rem;
     font-size: 1rem;
+}
+
+.infoItemServicio li::marker{
+    color: var(--verde);
 }
 
 .portadaServiciosObras{
