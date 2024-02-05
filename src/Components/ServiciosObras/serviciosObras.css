@@ -57,31 +57,28 @@
 }
 
 .portadaArquitectura{
-    background-image: url("../../assets/Arquitectura/1.jpg");
+    background-image: url("../../assets/Arquitectura/1.webp");
 }
 
 .portadaCivil{
-    background-image: url("../../assets/IngCivil/1.jpg");
+    background-image: url("../../assets/IngCivil/1.webp");
 }
 
 .portadaElectromecanica{
-    background-image: url("../../assets/Electromecanica/1.jpeg");
+    background-image: url("../../assets/Electromecanica/7.webp");
 }
 
 .portadaMetalurgica{
-    background-image: url("../../assets/Metalúrgica/1.jpg");
+    background-image: url("../../assets/Metalúrgica/3.webp");
 }
 
-@media (max-width: 576px){
+@media (max-width: 992px){
 
     .infoItemServicio h2, .tituloServiciosyObras{
         font-size: 2rem;
     }
-}
 
-@media (min-width: 576px) and (max-width: 992px){
-    
-    .infoItemServicio h2, .tituloServiciosyObras{
-        font-size: 2rem;
+    .portadaServiciosObras{
+        display: none;
     }
 }

@@ -1,7 +1,17 @@
 .carouselServicio{
-    border-radius: 32px;
+    width: 100%;
+    aspect-ratio: 2;
 }
 
 .carouselServicio img{
-    border-radius: 32px;
+    width: 100%;
+    aspect-ratio: 2;
+    object-fit: cover;
+    object-position: center center;
+}
+
+@media (min-width: 993px){
+    .carouselServicio{
+        display: none;
+    }
 }

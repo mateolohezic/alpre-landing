@@ -10,24 +10,24 @@ import Footer from '../../Components/Footer/Footer';
 
 function Home() {
 
-  let isScrolling;
+  // let isScrolling;
 
-  document.addEventListener('wheel', function(e) {
-      e.preventDefault();
+  // document.addEventListener('wheel', function(e) {
+  //     e.preventDefault();
   
-      clearTimeout(isScrolling);
+  //     clearTimeout(isScrolling);
   
-      const scrollJump = window.innerHeight / 2;
-      const scrollDirection = e.deltaY > 0 ? 1 : -1;
+  //     const scrollJump = window.innerHeight / 2;
+  //     const scrollDirection = e.deltaY > 0 ? 1 : -1;
   
-      isScrolling = setTimeout(() => {
-          const newScrollPosition = window.scrollY + scrollJump * scrollDirection;
-          window.scrollTo({
-            top: newScrollPosition,
-            behavior: 'smooth'
-          });
-      }, 50);
-  }, { passive: false });
+  //     isScrolling = setTimeout(() => {
+  //         const newScrollPosition = window.scrollY + scrollJump * scrollDirection;
+  //         window.scrollTo({
+  //           top: newScrollPosition,
+  //           behavior: 'smooth'
+  //         });
+  //     }, 50);
+  // }, { passive: false });
 
   return (
     <>

@@ -27,15 +27,15 @@
 }
 
 .itemCarouselPortada1{
-    background-image: url("../../assets/CarrouselPortada/1AAA.webp");
+    background-image: url("../../assets/CarrouselPortada/1.webp");
 }
 
 .itemCarouselPortada2{
-    background-image: url("../../assets/CarrouselPortada/2AAA.webp");
+    background-image: url("../../assets/CarrouselPortada/2.webp");
 }
 
 .itemCarouselPortada3{
-    background-image: url("../../assets/CarrouselPortada/3AAA.webp");
+    background-image: url("../../assets/CarrouselPortada/3.webp");
 }
 
 .itemCarouselPortada span{
@@ -56,4 +56,34 @@
     letter-spacing: 1px;
     filter: drop-shadow(5px 5px 5px rgb(58, 58, 58, 0.5));
     z-index: 2;
+}
+
+@media (max-width: 576px){
+
+    .itemCarouselPortada1{
+        background-image: url("../../assets/CarrouselPortada/1sm.webp");
+    }
+    
+    .itemCarouselPortada2{
+        background-image: url("../../assets/CarrouselPortada/2sm.webp");
+    }
+    
+    .itemCarouselPortada3{
+        background-image: url("../../assets/CarrouselPortada/3sm.webp");
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+
+    .itemCarouselPortada1{
+        background-image: url("../../assets/CarrouselPortada/1sm.webp");
+    }
+    
+    .itemCarouselPortada2{
+        background-image: url("../../assets/CarrouselPortada/2sm.webp");
+    }
+    
+    .itemCarouselPortada3{
+        background-image: url("../../assets/CarrouselPortada/3sm.webp");
+    }
 }

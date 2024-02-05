@@ -1,5 +1,6 @@
 import React from 'react'
 import './carouselServicio.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function CarouselServicio(props) {
 
@@ -11,7 +12,11 @@ function CarouselServicio(props) {
                         props.imagenes.map((imagen, index) => {
                             return(
                             <div className={`carousel-item ${ index === 0 && 'active'}`} key={index}>
-                                <img src={imagen} className="d-block w-100" alt="Carrusel Fotografías" />
+                                <LazyLoadImage
+                                    alt='Carrusel Fotografías'
+                                    src={imagen}
+                                    className='d-block w-100'
+                                />
                             </div>
                             )
                         })
