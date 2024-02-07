@@ -12,13 +12,36 @@ function TextosInicio() {
     <>
       <div className='contenedorTextos'>
         <div className='textosInicio'>
-          <a href="/#arquitecturaServicio">ARQUITECTURA</a>
+          <a href="/#arquitecturaServicio">
+            <span>ARQUITECTURA</span>
+            <small>
+              Conoce más
+              <i class="bi bi-arrow-right-short"></i>
+            </small>
+          </a>
           <span>|</span>
-          <a href="/#civilServicio">INGENIERÍA CIVIL</a>
+          <a href="/#civilServicio">
+            <span>INGENIERÍA CIVIL</span>
+            <small>
+              Conoce más
+              <i class="bi bi-arrow-right-short"></i>
+            </small>
+          </a>
           <span>|</span>
-          <a href="/#electromecanicaServicio">ELECTROMECÁNICA</a>
+          <a href="/#electromecanicaServicio">
+            <span>ELECTROMECÁNICA</span>
+            <small>
+              Conoce más
+              <i class="bi bi-arrow-right-short"></i>
+            </small>
+          </a>
           <span>|</span>
-          <a href="/#metalurgicaServicio">METALÚRGICA</a>
+          <a href="/#metalurgicaServicio">
+            <span>METALÚRGICA</span>
+            <small>
+              Conoce más
+              <i class="bi bi-arrow-right-short"></i>
+            </small></a>
         </div>
         <div className='imagenTextos'>
           <LazyLoadImage
