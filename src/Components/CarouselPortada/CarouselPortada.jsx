@@ -19,7 +19,13 @@ function CarouselPortada() {
                         <span></span>
                     </div>
                 </Carousel>
-                <div className='textoCarouselPortada'>CONSTRUCCIONES Y SERVICIOS</div>
+                <div className='textoCarouselPortada'>
+                    <h2>
+                        <span>MAS DE 20 AÑOS DEDICADOS A LA CONSTRUCCIÓN DE OBRAS DE</span>
+                        <span>ARQUITECTURA E INGENIERÍA PARA EL SECTOR PÚBLICO E INDUSTRIAL</span>
+                    </h2>
+                    <h3>Rigurosidad técnica y cumplimiento de los más altos estándares de calidad</h3>
+                </div>
             </div>
         </>
     )

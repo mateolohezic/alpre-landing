@@ -46,16 +46,29 @@
 }
     
 .textoCarouselPortada{
-    padding-inline: 1.5rem;
     position: absolute;
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
     color: #FFFFFF;
-    font-size: 3rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    filter: drop-shadow(5px 5px 5px rgb(58, 58, 58, 0.5));
+    filter: drop-shadow(5px 5px 5px rgb(31, 31, 31, 0.4));
     z-index: 2;
+}
+
+.textoCarouselPortada h2{
+    font-size: 2vw;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.textoCarouselPortada h2 span{
+    display: block;
+    text-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.textoCarouselPortada h3{
+    font-size: 2vw;
+    font-weight: 600;
 }
 
 @media (max-width: 576px){

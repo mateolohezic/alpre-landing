@@ -19,7 +19,7 @@ function LaEmpresa() {
                         </div>
                         <div className='cardPropiedad'>
                             <h3>Visión</h3>
-                            <p>Ser una empresa moderna en cuanto a gestión de proyectos y personas, métodos constructivos, logística e ingeniería financiera de obras en el norte de la Argentina. Para ello, buscamos contar con tecnologpia de avanzada en managment y en cada una de nuestras áreas, maximizando las utilidades en un ambiente de trabajo en constante mejora y con una contribución positiva a nuestros clientes / usuarios, personal y sociedad en general.</p>
+                            <p>Ser una empresa moderna en cuanto a gestión de proyectos y personas, métodos constructivos, logística e ingeniería financiera de obras en el norte de la Argentina. Para ello, buscamos contar con tecnología de avanzada en managment y en cada una de nuestras áreas, maximizando las utilidades en un ambiente de trabajo en constante mejora y con una contribución positiva a nuestros clientes / usuarios, personal y sociedad en general.</p>
                         </div>
                     </div>
                     <h2 className='tituloValores'>VALORES</h2>        

@@ -1,17 +1,39 @@
 .carouselServicio{
     width: 100%;
-    aspect-ratio: 2;
+    aspect-ratio: 16/9;
 }
 
 .carouselServicio img{
     width: 100%;
-    aspect-ratio: 2;
+    aspect-ratio: 16/9;
     object-fit: cover;
     object-position: center center;
 }
 
+.desktopCarousel{
+    width: 50%;
+    border-radius: 0.5rem;
+    aspect-ratio: 16/9;
+}
+
+.desktopCarousel img{
+    border-radius: 0.5rem;
+    aspect-ratio: 16/9;
+}
+
+
 @media (min-width: 993px){
     .carouselServicio{
+        display: none;
+    }
+
+    .desktopCarousel{
+        display: block;
+    }
+}
+
+@media (max-width: 993px){
+    .desktopCarousel{
         display: none;
     }
 }

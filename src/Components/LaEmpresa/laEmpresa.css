@@ -90,15 +90,14 @@
 }
 
 .columnaValores p{
-    font-size: 1.1rem;
-    line-height: 1.3rem;
+    color: rgb(58, 58, 58, 0.9);
+    font-size: 1rem;
 }
-
 .columnaValores b{
+    font-weight: 500;
     color: var(--azul);
     font-size: 1.5rem;
-    font-weight: 500;
-    margin-right: 0.3rem;
+    margin-right: 0.3rem;    
 }
 
 .tituloCategoriaEmpresa{

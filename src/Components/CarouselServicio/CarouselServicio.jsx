@@ -6,7 +6,7 @@ function CarouselServicio(props) {
 
     return (
         <>
-            <div id={props.id} className="carousel slide carouselServicio">
+            <div id={props.id} className={`carousel slide carouselServicio ${ props.desktop && 'desktopCarousel'}`}>
                 <div className="carousel-inner">
                     {
                         props.imagenes.map((imagen, index) => {

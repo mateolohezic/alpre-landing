@@ -25,9 +25,8 @@
     min-height: 50vh;
     padding-block: 3rem;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: start;
+    justify-content: space-between;
+    align-items: end;
 }
 
 .infoItemServicio h2{
@@ -90,5 +89,13 @@
 
     .portadaServiciosObras{
         display: none;
+    }
+}
+
+@media (min-width: 993px){
+
+    .textoItemServicio{
+        width: 50%;
+        padding-right: 1rem;
     }
 }
