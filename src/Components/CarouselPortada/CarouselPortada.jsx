@@ -8,7 +8,7 @@ function CarouselPortada() {
     return (
         <>
             <div className='contenedorCarouselPortada' id="Inicio">            
-                <Carousel autoPlay={true} dynamicHeight={false} infiniteLoop={true} emulateTouch={false} showArrows={false} showStatus={false} showThumbs={false}>
+                <Carousel autoPlay swipeable={false} useKeyboardArrows={false} autoFocus={false} dynamicHeight={false} infiniteLoop emulateTouch={false} showArrows={false} showStatus={false} showThumbs={false}>
                     <div className='itemCarouselPortada itemCarouselPortada1'>
                         <span></span>
                     </div>
