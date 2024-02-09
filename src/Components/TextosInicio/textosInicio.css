@@ -9,6 +9,7 @@
     height: 50vh;
     width: min(1200px, calc(100% - 2rem));
     min-height: 450px;
+    margin-block: 2rem;
 }
 
 .textoInicio1{

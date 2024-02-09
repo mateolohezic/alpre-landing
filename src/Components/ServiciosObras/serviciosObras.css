@@ -74,11 +74,11 @@
 }
 
 .portadaElectromecanica{
-    background-image: url("../../assets/Electromecanica/7.webp");
+    background-image: url("../../assets/Electromecanica/1.webp");
 }
 
 .portadaMetalurgica{
-    background-image: url("../../assets/Metalúrgica/3.webp");
+    background-image: url("../../assets/Metalúrgica/1.webp");
 }
 
 @media (max-width: 992px){
