@@ -104,7 +104,7 @@
 }
 
 .contactoExitoso{
-    margin-top: 5rem;
+    margin-top: 3rem;
     width: 100%;
     text-align: center;
     display: flex;
@@ -114,12 +114,13 @@
 }
 
 .contactoExitoso img{
+    width: 270px;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
 }
 
 .contactoExitoso h3{
-    margin-top: 1.5rem;
-    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--azul);
 }

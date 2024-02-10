@@ -7,34 +7,33 @@ import contacto from '../../assets/contact.png'
 function Contacto() {
 
   const [loading, setLoading] = useState(false);
-  const [enviado, setEnviado] = useState(false);
+  const [enviado, setEnviado] = useState(true);
   const { register, handleSubmit, formState: { errors } } = useForm({ mode: "onBlur" });
 
   const onSubmit = async (data) => {
-    console.log(data)
-    // setLoading(true);
-    // const templateParams = {
-    //   name: data.name,
-    //   venture: data.venture,
-    //   email: data.email,
-    //   message: data.info
-    // };
-    // try {
-    //   const response = await emailjs.send(
-    //     import.meta.env.VITE_EMAIL_SERVICE,
-    //     import.meta.env.VITE_EMAIL_TEMPLATE,
-    //     templateParams,
-    //     import.meta.env.VITE_EMAIL_KEY,
-    //   );
-    //   if (response.status === 200){
-    //     setEnviado(true)
-    //   } else{
-    //     window.location.reload(true)
-    //   }
-    // } catch (error) {
-    //   console.error(error);
-    // }
-    // setLoading(false)
+    setLoading(true);
+    const templateParams = {
+      name: data.name,
+      venture: data.venture,
+      email: data.email,
+      message: data.info
+    };
+    try {
+      const response = await emailjs.send(
+        import.meta.env.VITE_EMAIL_SERVICE,
+        import.meta.env.VITE_EMAIL_TEMPLATE,
+        templateParams,
+        import.meta.env.VITE_EMAIL_KEY,
+      );
+      if (response.status === 200){
+        setEnviado(true)
+      } else{
+        window.location.reload(true)
+      }
+    } catch (error) {
+      console.error(error);
+    }
+    setLoading(false)
   };
   
   return (
@@ -162,8 +161,7 @@ function Contacto() {
     : 
       <>
         <div className='contenedorContacto' id="seccionContacto">
-          <div className='tituloCategoria'>CONTACTO</div>
-          <h2 className='tituloDirectorio'>COMUNÍCATE CON NOSOTROS</h2>
+          <h2 className='tituloComunicate'>COMUNÍCATE CON NOSOTROS</h2>
           <div className='contactoExitoso'>
             <img src={contacto} alt="Contacto exitoso" />
             <h3>¡Gracias por contactarnos!</h3>
