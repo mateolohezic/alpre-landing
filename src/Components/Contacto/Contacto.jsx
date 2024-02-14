@@ -7,7 +7,7 @@ import contacto from '../../assets/contact.png'
 function Contacto() {
 
   const [loading, setLoading] = useState(false);
-  const [enviado, setEnviado] = useState(true);
+  const [enviado, setEnviado] = useState(false);
   const { register, handleSubmit, formState: { errors } } = useForm({ mode: "onBlur" });
 
   const onSubmit = async (data) => {
