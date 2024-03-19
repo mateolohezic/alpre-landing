@@ -20,6 +20,7 @@ import electromecanica3 from '../../assets/Electromecanica/3.webp'
 import electromecanica4 from '../../assets/Electromecanica/4.webp'
 import electromecanica5 from '../../assets/Electromecanica/5.webp'
 import electromecanica6 from '../../assets/Electromecanica/6.webp'
+import electromecanica7 from '../../assets/Electromecanica/7.webp'
 import metalurgica1 from '../../assets/Metalúrgica/1.webp'
 import metalurgica2 from '../../assets/Metalúrgica/2.webp'
 import metalurgica3 from '../../assets/Metalúrgica/3.webp'
@@ -34,8 +35,8 @@ function ServiciosObras() {
   const imgArquitecturaXL = [ arquitectura2, arquitectura3, arquitectura4, arquitectura5, arquitectura6 ]
   const imgCivil = [ civil1, civil2, civil3, civil4, civil5, civil6 ]
   const imgCivilXL = [ civil2, civil3, civil4, civil5, civil6 ]
-  const imgElectromecanica = [ electromecanica1, electromecanica2, electromecanica3, electromecanica4, electromecanica5, electromecanica6]
-  const imgElectromecanicaXL = [ electromecanica2, electromecanica3, electromecanica4, electromecanica5, electromecanica6 ]
+  const imgElectromecanica = [ electromecanica1, electromecanica2, electromecanica3, electromecanica4, electromecanica5, electromecanica6, electromecanica7 ]
+  const imgElectromecanicaXL = [ electromecanica2, electromecanica3, electromecanica4, electromecanica5, electromecanica6, electromecanica7 ]
   const imgMetalurgica = [ metalurgica1, metalurgica2, metalurgica3, metalurgica4, metalurgica5, metalurgica6 ]
   const imgMetalurgicaXL = [ metalurgica2, metalurgica3, metalurgica4, metalurgica5, metalurgica6 ]
 
